@@ -48,3 +48,4 @@ module.exports.run = async (bot, msg) => {
     .fetch({limit: size})
     .then(msgs => msgs.map(ms => isBot == ms.author.bot ? ms.delete() : null));
 }
+// .
